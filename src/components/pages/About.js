@@ -1,15 +1,15 @@
 import React from 'react';
-import HeroSection from '../HeroSection';
 import Footer from '../Footer';
+import Projects from '../Projects';
 import '../../App.css';
 
-function Home() {
+function About() {
     return (
         <>
-            <HeroSection />
+            <Projects />
             <Footer />
         </>
     )
 }
 
-export default Home;
+export default About;

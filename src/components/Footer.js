@@ -15,7 +15,7 @@ function Footer() {
                     <small className='website-owner'>Albin Ryberg © 2021</small>
                     <div className='social-icons'>
                         <Link className='social-icon-link github' to='/' target='_blank' aria-label='Github' >
-                            <i class="fab fa-github"></i>
+                            <a href='https://github.com/AlbinR' target='_blank' rel="noreferrer"><i class="fab fa-github"></i></a>
                         </Link>
                         <Link className='social-icon-link linkedin' to='/' target='_blank' aria-label='Linkedin' >
                             <i class="fab fa-linkedin"></i>

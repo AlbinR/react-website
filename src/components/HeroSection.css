@@ -24,11 +24,22 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.hero-btns {
-    margin-top: 32px;
+.hero-text > p {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.hero-btns .btns {
+.hero-btn {
+    margin-top: 32px;
+    text-decoration: none;
+}
+.btn-link{
+    text-decoration: none;
+}
+
+.hero-btn .btns {
     margin: 6px;
 }
 
@@ -47,6 +58,11 @@
     .hero-container > p {
         font-size: 30px;
     }
+
+    .hero-text > p{
+        font-size: 10px;
+    }
+
     .btn-mobile {
         display: block;
         text-decoration: none;
