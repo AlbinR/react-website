@@ -1,15 +1,15 @@
 import React from 'react';
-import './Projects.css';
+import './Edu.css';
 
-function Project() {
+function Edu() {
     return (
-        <div className='project-container'>
-            <div className='project-text'>
-                <h1>About Me</h1>
+        <div className='edu-container'>
+            <div className='edu-text'>
+                <h1>Education</h1>
                 <p>Jag är 21 år, bor i Stockholmstrakten och studerar webbutveckling på yrkeshögskolan KYH.</p>
             </div>
         </div>
     )
 }
 
-export default Project
+export default Edu

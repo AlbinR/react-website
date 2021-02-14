@@ -16,7 +16,7 @@ function HeroSection() {
                 </p>
             </div>
             <div className='hero-btn'>
-            <Link className='btn-link' to='/about'>
+            <Link path='/about'>
                 <Button
                     className='btns'
                     buttonStyle='btn--outline'
